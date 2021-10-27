@@ -1,0 +1,104 @@
+.jumbotron {
+background-color: #C8102E;	
+color: #ffffff;
+font-family: Nimbus Sans;
+
+}
+@font-face {
+  font-family: 'Nimbus Sans';
+  src: url('//cdn.theme.iastate.edu/nimbus-sans/fonts/NimbusSanL-Reg.woff2') format('woff2'),
+       url('//cdn.theme.iastate.edu/nimbus-sans/fonts/NimbusSanL-Reg.woff') format('woff'),
+       url('//cdn.theme.iastate.edu/nimbus-sans/fonts/NimbusSanL-Reg.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+h3 {
+	font-weight: strong;
+	color: black;
+	font-family: Nimbus Sans;
+	
+	
+}
+
+body {
+	background-color: #A9A9A9;
+}
+h4, ol { 
+color: #000000;
+font-family: Nimbus Sans;
+font-weight: strong;
+
+}
+
+footer { 
+background-color: white;
+}
+.nimbus-sans, 
+.nimbus-sans-regular {
+  font-family: 'Nimbus Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+.sidebar {
+  height: 100%;
+  width: 0; 
+  position: fixed;
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden;
+  padding-top: 60px; 
+  transition: 0.5s;
+}
+
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
